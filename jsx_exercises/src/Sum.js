@@ -1,8 +1,11 @@
 import React from "react";
 
 export default class HelloWorld extends React.Component{
-    hello = 'Hello, World!';
+    sum(a,b){
+        return a + b
+    }
+
     render(){
-        return<h1>{this.hello}</h1>
+        return <h2>{this.sum(1,2)}</h2>
     }
 }

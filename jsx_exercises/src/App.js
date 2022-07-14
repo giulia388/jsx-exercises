@@ -1,15 +1,13 @@
 import './App.css';
 import React from 'react';
-import HelloWorld from './HelloWorld';
+import Sum from './Sum';
 
 class App extends React.Component{
 
   render() {
 
     return (
-      <div>
-        <HelloWorld/>
-      </div>
+        <Sum/>
     )
   }
 }
